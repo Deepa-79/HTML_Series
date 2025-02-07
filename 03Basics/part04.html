@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- input Element -->
+<h2>checkbox example</h2>
+    <form action="/server">
+      <label for="age">Age is 18+</label>
+      <input type="checkbox" name="age" id="age" checked />
+      <button>submit</button>
+      <hr>
+      <div>
+        <h2>Radio button </h2>
+find odd
+<input type="radio" name="odd" id="odd"  value="apple"/>
+      <label for="odd"> apple</label>
+       <input type="radio" name="odd" id="odd"value="mango"  />
+      <label for="odd"> Mango</label>
+     <input type="radio" name="odd" id="odd" value="banana" />
+      <label for="odd"> banana</label>
+       <input type="radio" name="odd" id="odd"  value="tomato"/>
+      <label for="odd"> tomato<label> <br>
+        <button>submit</button>
+     
+      </div>
+
+      <div>
+        <h2>Select element</h2>
+        <h3>choose your profession</h3>
+        <select name="profession" id="profession">
+            <option value="null" selected>Select your option</option>
+            <option value="stu"> Student</option>
+            <option value="working"> working</option>
+        </select>
+        <button>submit</button>
+      </div>
+      <hr>
+<h2> Range Element</h2>
+      <div>
+        <label for="vol">Set your volume level</label>
+        <input type="range"  id=vol min="0" max="100" name="vol" value="40">
+        <button>submit</button>
+      </div>
+      <hr>
+
+      <div>
+        <h2> textarea element</h2>
+        <label for="feedback"> Please Enter your feedback :</label>
+        <textarea name="feedback" id="feedback" placeholder="Write yourfeedback here"></textarea>
+        <button>submit</button>
+      </div>
+    </form>
+  </body>
+</html>

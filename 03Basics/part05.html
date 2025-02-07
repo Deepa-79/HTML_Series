@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Practice Question -->
+    <form action="/server">
+      <h2>Ragistration Form</h2>
+      <input type="text" placeholder="FirstName" name="FirstName" />
+      <input type="text" placeholder="LastName" name="LastName" /><br />
+      <label for="gen">Select Your Gender</label>
+      <select name="gen" id="gen">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <br />
+      <label for="yes">Do You Agree to all Services?</label>
+      <input type="checkbox" id="yes" name="yes" checked /> Yes, i agree <br />
+      <button>Ragister</button>
+    </form>
+    <br />
+    <hr />
+    <h2>Subscription Form</h2>
+    <form action="/server">
+      <label for="name"> Name:</label>
+      <input type="text" id="name" name="fn" /> <br />
+      <label for="gen">Sex :</label>
+      <label for="gen">Male</label>
+      <input type="radio" name="gen" id="gen" />
+      <label for="gen">Female</label>
+      <input type="radio" name="gen" id="gen" /> <br />
+      <label for="country">Country :</label>
+      <select name="country" id="country">
+        <option value="null">Select an option</option>
+        <option value="ind">India</option>
+        <option value="Aus">Australia</option>
+      </select>
+      <br />
+      <label for="msg">Message</label> <br />
+      <textarea name="msg" id="msg"> </textarea>
+
+      <br />
+      <input type="checkbox" />
+      <label for="sub">Subscribe?</label>
+
+      <br />
+      <button>Submit</button>
+    </form>
+    <br />
+    <hr />
+    <h2>Feedback Form</h2>
+    <form action="/server">
+      <label for="name">Name :</label>
+      <input type="text" placeholder="Enter Your name" id="name" name="name" />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="text"
+        placeholder="Enter Your Email"
+        id="email"
+        name="email"
+      />
+      <br />
+      <label for="msg">Message :</label> <br />
+      <textarea name="Msg" id="Msg"></textarea> <br />
+      <label for="rate">Rate us our of 5 :</label> <br />
+
+      <input type="radio" name="rate" id="rate" />
+      <label for="rate">1</label> <br />
+      <input type="radio" name="rate" id="rate" />
+      <label for="rate">2</label> <br />
+      <input type="radio" name="rate" id="rate" />
+      <label for="rate">3</label> <br />
+      <input type="radio" name="rate" id="rate" />
+      <label for="rate">4</label> <br />
+      <input type="radio" name="rate" id="rate" />
+      <label for="rate">5</label> <br />
+
+      <button>Send Your Message</button>
+    </form>
+
+    <br />
+    <hr />
+  </body>
+</html>
